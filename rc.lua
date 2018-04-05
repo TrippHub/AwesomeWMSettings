@@ -42,7 +42,8 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
-beautiful.init(gears.filesystem.get_themes_dir() .. "xresources/theme.lua")
+beautiful.init("/home/tcashel/.config/awesome/themes/default/theme.lua")
+
 
 -- This is used later as the default terminal and editor to run.
 terminal = "terminator"
