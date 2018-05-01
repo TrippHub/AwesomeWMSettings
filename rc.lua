@@ -40,10 +40,16 @@ do
 end
 -- }}}
 
+--notification test
+naughty.notify({ preset = naughty.config.presets.critical,
+                     title = "AwesomeWM Restarted",
+                     text = "New Config Loaded." })
+
+
+
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
 beautiful.init("/home/tcashel/.config/awesome/themes/default/theme.lua")
-
 
 -- This is used later as the default terminal and editor to run.
 terminal = "terminator"

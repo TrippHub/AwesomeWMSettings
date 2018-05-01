@@ -14,7 +14,7 @@ local theme = {}
 theme.font          = "sans 8"
 
 theme.bg_normal     = "#222222"
--- #42717B blue grey. #ff7b00 orange, #ff0000 red
+-- nice blue: #3ebdd8.  #42717B blue grey. #ff7b00 orange, #ff0000 red
 theme.bg_focus      = "#3ebdd8"
 theme.bg_urgent     = "#ff0000"
 theme.bg_minimize   = "#444444"
@@ -28,7 +28,7 @@ theme.fg_minimize   = "#ffffff"
 theme.useless_gap   = dpi(0)
 theme.border_width  = dpi(2)
 theme.border_normal = "#000000"
---boarder #535d6c, grey.  
+--boarder #535d6c, grey. blue: #49dfff  
 theme.border_focus  = "#49dfff"
 theme.border_marked = "#91231c"
 
