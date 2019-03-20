@@ -15,7 +15,7 @@ theme.font          = "sans 8"
 
 theme.bg_normal     = "#222222"
 -- nice blue: #3ebdd8.  #42717B blue grey. #ff7b00 orange, #ff0000 red
-theme.bg_focus      = "#ff00ff"
+theme.bg_focus      = "#535d6c"
 theme.bg_urgent     = "#ff0000"
 theme.bg_minimize   = "#444444"
 theme.bg_systray    = theme.bg_normal
@@ -28,7 +28,7 @@ theme.fg_minimize   = "#ffffff"
 theme.useless_gap   = dpi(0)
 theme.border_width  = dpi(2)
 theme.border_normal = "#000000"
---boarder #535d6c, grey. blue: #49dfff  
+--boarder #535d6c, grey. blue: #49dfff pink:#ff00ff 
 theme.border_focus  = "#ff00ff"
 theme.border_marked = "#91231c"
 
