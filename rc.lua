@@ -295,7 +295,7 @@ globalkeys = gears.table.join(
     awful.key({ modkey, "Shift"   }, "q", awesome.quit,
               {description = "quit awesome", group = "awesome"}),
 
-    awful.key({ modkey,           }, "l",     function () awful.tag.incmwfact( 0.05)          end,
+    awful.key({ modkey,           }, ";",     function () awful.tag.incmwfact( 0.05)          end,
               {description = "increase master width factor", group = "layout"}),
     awful.key({ modkey,           }, "h",     function () awful.tag.incmwfact(-0.05)          end,
               {description = "decrease master width factor", group = "layout"}),
@@ -365,7 +365,7 @@ globalkeys = gears.table.join(
         {description = "toggle mute", group = "hotkeys"}),
 
    -- Screen Lock
-   awful.key({},"#78", function () awful.util.spawn("xlock",false) end,
+   awful.key({modkey},"l", function () awful.util.spawn("slock",false) end,
    	{description = "lock screen", group = "hotkeys"}),
    -- Screen Shot
    awful.key({modkey, "Control", "Shift" },"s", function () awful.util.spawn("flameshot gui",false) end,
